@@ -1,3 +1,5 @@
+require 'test_helper'
+
 
 class ModelGeneratorTest < Rails::Generators::TestCase
   tests ActiveAdmin::Images::ModelGenerator
