@@ -1,4 +1,4 @@
-class <%= name %> < ActiveRecord::Base
+class <%= name%> < ActiveRecord::Base
 
   attr_accessible attachment
 
