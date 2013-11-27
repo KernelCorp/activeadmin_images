@@ -15,6 +15,5 @@ gemspec
 
 gem 'rails', '~>3.2.13'
 
-platforms :ruby do
-  gem 'sqlite3'
-end
+
+gem 'sqlite3'

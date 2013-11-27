@@ -13,14 +13,14 @@ module ActiveAdmin
         migration_template 'migration.rb', "db/migrate/create_table_#{name.underscore.gsub('/', '_').pluralize}.rb"
       end
 
-      private
-      def images_local_assigns
-        assigns = {}
-        assigns[:migration_action] = "create"
-        assigns[:class_name] = "CreateTable#{name.gsub('/', '_').pluralize}"
-        assigns[:table_name] = name.gsub('/', '_').underscore.pluralize
-        assigns
+      def create_register
+        template 'register.rb', "app/admin/#{name.gsub('/', '_').underscore}.rb"
       end
+
+      def create_images_form
+        template 'form.rb', "app/views/admin/#{name.underscore.gsub('/', '_').pluralize}/_add_images.html.erb"
+      end
+
 
     end
   end
