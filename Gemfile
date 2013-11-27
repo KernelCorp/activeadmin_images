@@ -14,3 +14,7 @@ gemspec
 # gem 'debugger'
 
 gem 'rails', '~>3.2.13'
+
+platforms :ruby do
+  gem 'sqlite3'
+end
