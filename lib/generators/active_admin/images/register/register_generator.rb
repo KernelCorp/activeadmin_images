@@ -1,10 +1,10 @@
 module ActiveAdmin
   module Images
-    class ResourceGenerator < Rails::Generators::NamedBase
+    class RegisterGenerator < Rails::Generators::NamedBase
       source_root File.expand_path('../templates', __FILE__)
 
       def create_model
-        template 'resource.rb', "app/model/#{name.gsub('/', '_')}"
+        template 'register.rb', "app/admin/#{name.gsub('/', '_').underscore}.rb"
       end
 
       def create_migration

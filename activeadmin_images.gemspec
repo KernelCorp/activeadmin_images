@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Kernel Web"]
   s.email       = ["mk@kernel-corp.com"]
   s.homepage    = "https://github.com/KernelCorp/activeadmin_images.git"
-  s.summary     = "TODO: Summary of ActiveadminImages."
-  s.description = "TODO: Description of ActiveadminImages."
+  s.summary     = "Summary of ActiveadminImages."
+  s.description = "Description of ActiveadminImages."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
