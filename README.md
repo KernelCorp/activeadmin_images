@@ -1,2 +1,4 @@
-activeadmin-images
+Active Admin Images
 ==================
+
+
