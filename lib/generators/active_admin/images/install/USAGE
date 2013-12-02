@@ -1,8 +1,10 @@
 Description:
-    Explain the generator
+    Generates model for images and registers in active admin
 
 Example:
-    rails generate install Thing
+    rails generate install Image
 
     This will create:
-        what/will/it/create
+        app/model/image.rb
+        db/migration/create_images.rb
+        app/admin/image.rb
