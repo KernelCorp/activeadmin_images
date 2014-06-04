@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    activeadmin_images (0.0.1)
+    activeadmin_images (0.2.0)
       activeadmin
       rails (~> 3.2.13)
 
