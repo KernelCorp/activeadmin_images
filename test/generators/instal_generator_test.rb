@@ -1,7 +1,7 @@
-require 'test_helper'
+require '../test_helper'
 require 'generators/active_admin/images/install/install_generator'
 
-class InstalGeneratorTest < Rails::Generators::TestCase
+class InstallGeneratorTest < Rails::Generators::TestCase
   tests ActiveAdmin::Images::InstallGenerator
   destination File.expand_path("../../tmp", __FILE__)
   setup :prepare_destination
